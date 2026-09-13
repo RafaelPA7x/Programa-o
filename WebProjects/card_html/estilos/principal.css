@@ -1,0 +1,78 @@
+
+body{
+    background-color: rgb(165, 139, 139);
+}
+
+.cabecalho {
+    background-color: rgba(195, 14, 14, 0.829);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+.conteudo{
+    background-color: rgb(144, 183, 164);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+       background-color: rgb(246, 102, 95);
+        border-radius: 5px;
+        height: 450px;
+        width: 210px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+}
+.card_img img{
+    width: calc(100% - 10px);
+    height: 185px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    margin: 5px auto;
+    margin-right: 5px; 
+}
+.botao{
+    margin-top: auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.botao button{
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.botao button:hover {
+    background-color: #b30000;
+    transform: scale(1.05);
+}
+.tabela-vinis{
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tabela-vinis th{
+    background-color: #0b0000;
+    color: white;
+    padding: 10px;
+}
+.tabela-vinis td{
+    padding: 10px;
+}
+.tabela-vinis tbody tr:nth-child(even){
+    background-color: #eeeeee;
+}
+.tabela-vinis tbody tr:nth-child(odd){
+    background-color: #cccccc;
+}
+.tabela-vinis tbody tr:hover{
+    background-color: #f0a0a0;
+}
